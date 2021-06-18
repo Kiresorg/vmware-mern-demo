@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for mern app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiresorg/vmware-mern-demo.git"
+  },
+  "author": "Erik Gross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiresorg/vmware-mern-demo/issues"
+  },
+  "homepage": "https://github.com/Kiresorg/vmware-mern-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
